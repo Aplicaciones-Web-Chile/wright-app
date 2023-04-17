@@ -11,6 +11,7 @@ classes: hide-navbar
 <div class="container">
   <div class="row">
     <div class="col-6">
+      <h1>Inicio</h1>
       <h2>Usuarios Wright</h2>
       <form id="wright-form">
         <div class="form-group">

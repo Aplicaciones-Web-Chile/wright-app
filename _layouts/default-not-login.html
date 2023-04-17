@@ -1,0 +1,12 @@
+{% include head.html %}
+  <body {% if page.section %}class="{{ page.section }}"{% endif %}>
+    {% include header.html %}
+
+    <main role="main" class="container-fluid mt-4">
+      <!-- Aquí se mostrará el contenido de cada página -->
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

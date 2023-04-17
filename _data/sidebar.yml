@@ -1,0 +1,34 @@
+- nombre: Inicio
+  url: /dashboard/admin
+- nombre: Programas
+  url: #
+  hijos:
+    - nombre: Crear programa
+      url: /programas/crear
+    - nombre: Editar Programa
+      url: /programas/editar
+- nombre: Secciones
+  url: #
+  hijos:
+    - nombre: Crear Sección
+      url: /seccion/crear
+    - nombre: Editar Sección
+      url: /seccion/editar
+- nombre: Diccionario de preguntas
+  url: #
+  hijos:
+    - nombre: Crear Pregunta
+      url: /diccionario-de-preguntas/crear
+    - nombre: Editar Pregunta
+      url: /diccionario-de-preguntas/editar
+- nombre: Clientes
+  url: #
+  hijos:
+    - nombre: Crear Cliente
+      url: /cliente/crear
+    - nombre: Editar Cliente
+      url: /cliente/editar
+- nombre: Emails
+  url: /emails
+- nombre: Informes
+  url: /informes

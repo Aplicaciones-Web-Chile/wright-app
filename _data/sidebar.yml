@@ -7,20 +7,20 @@
       url: /programas/crear
     - nombre: Editar Programa
       url: /programas/editar
-- nombre: Secciones
+- nombre: Dimensiones
   url: #
   hijos:
-    - nombre: Crear Sección
-      url: /seccion/crear
-    - nombre: Editar Sección
-      url: /seccion/editar
-- nombre: Diccionario de preguntas
+    - nombre: Crear Dimensión
+      url: /dimension/crear
+    - nombre: Editar Dimensión
+      url: /dimension/editar
+- nombre: Diccionario de conductas
   url: #
   hijos:
-    - nombre: Crear Pregunta
-      url: /diccionario-de-preguntas/crear
-    - nombre: Editar Pregunta
-      url: /diccionario-de-preguntas/editar
+    - nombre: Crear Conducta
+      url: /diccionario-de-conductas/crear
+    - nombre: Editar Conducta
+      url: /diccionario-de-conductas/editar
 - nombre: Clientes
   url: #
   hijos:

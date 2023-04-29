@@ -9,6 +9,14 @@ section: diccionario-de-conductas-crear
   <h1 class="mb-4">Crear conducta</h1>
   <form id="conducta-form">
     <div class="mb-3">
+      <label for="dimension" class="form-label">Dimensión</label>
+      <select class="form-select" id="dimension" name="dimension" required>
+        {% for dimension in site.data.dimension %}
+          <option value="{{ dimension.nombre }}">{{ dimension.categoria }} - {{ dimension.nombre }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="mb-3">
       <label for="nombre" class="form-label">Nombre de la conducta</label>
       <input type="text" class="form-control" id="nombre" name="nombre" required>
     </div>
@@ -19,14 +27,6 @@ section: diccionario-de-conductas-crear
     <div class="mb-3">
       <label for="evaluador" class="form-label">Conducta para el evaluador (En 3era persona)</label>
       <textarea class="form-control" id="evaluador" name="evaluador" required></textarea>
-    </div>
-    <div class="mb-3">
-      <label for="dimension" class="form-label">Dimensión</label>
-      <select class="form-select" id="dimension" name="dimension" required>
-        {% for dimension in site.data.dimension %}
-          <option value="{{ dimension.nombre }}">{{ dimension.categoria }} - {{ dimension.nombre }}</option>
-        {% endfor %}
-      </select>
     </div>
     <button type="submit" class="btn btn-primary">Crear conducta</button>
   </form>

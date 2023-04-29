@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Cliente
-permalink: /cliente/
-section: client
+permalink: /cliente/crear
+section: cliente-crear
 ---
 
 # Cliente

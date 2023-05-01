@@ -9,7 +9,7 @@ comment for copilot: Crea un formulario que permita crear un Cliente, con los si
 Aquí puedes ver y gestionar los clientes
 <form class="form-horizontal" role="form">
   <div class="form-group mb-3">
-    <label for="empresa" class="col-sm-2 control-label">Empresa</label>
+    <label for="empresa" class="col-sm-2 control-label">Nombre comercial de la empresa</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="empresa" placeholder="Nombre de la Empresa">
     </div>
@@ -30,33 +30,7 @@ Aquí puedes ver y gestionar los clientes
 
 <h3 class="mb-3 mt-4">Crear encargados</h3>
 
-<section class="encargado">
-  <div class="row mb-3">
-    <div class="col-md-5">
-      <div class="form-group">
-        <label for="encargado">Encargado</label>
-        <input type="text" class="form-control" id="encargado" placeholder="Nombre del Encargado">
-      </div>
-    </div>
-    <div class="col-md-5">
-      <div class="form-group">
-        <label for="select2">Seleccione Rol</label>
-        <select class="form-control" id="select2">
-          <option>Seleccione ROL</option>
-          {% for rol in site.data.roles %}
-          <option value="{{ rol.id }}">{{ rol.nombre }}</option>
-          {% endfor %}
-        </select>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="form-group">
-        <br>
-        <button type="button" class="btn btn-primary btn-sm" id="boton-clonar">+</button>
-      </div>
-    </div>
-  </div>
-</section><!-- /.encargado -->
+{% include clientes/encargados.html %}
 
   <button type="submit" class="btn btn-primary">Crear Cliente</button>
 </form>

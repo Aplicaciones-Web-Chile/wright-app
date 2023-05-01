@@ -4,12 +4,7 @@ title: Editar Cliente
 permalink: /cliente/editar
 section: cliente-editar
 ---
-
 ## Lista de clientes
-
-
-
-<div class="container">
   <h3 class="text-center">Por favor, seleccione el cliente que desea editar:</h3>
   <hr>
   <div class="row justify-content-center">
@@ -38,4 +33,3 @@ section: cliente-editar
     </table>
     </div>
   </div>
-</div>

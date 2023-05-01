@@ -4,7 +4,6 @@ title: Proyecto Editar
 permalink: /proyectos/editar
 section:  proyecto-editar
 ---
-<div class="container">
   <h1>Proyectos</h1>
   <p> Seleccione el proyecto que desea editar </p>
   <div class="list-group">
@@ -16,4 +15,3 @@ section:  proyecto-editar
     </p>
     {% endfor %}
   </div>
-</div>

@@ -4,8 +4,6 @@ title: Dimension Crear
 permalink: /dimension/crear
 section: dimension-crear
 ---
-
-<div class="container">
   <div class="row">
     <div class="col-md-6 mx-auto">
       <h1 class="text-center">Crear nueva dimension</h1>
@@ -30,4 +28,3 @@ section: dimension-crear
       </div>
     </div>
   </div>
-</div>

@@ -1,1 +1,12 @@
-[  {    "nombre": "Programa 1",    "descripcion": "Descripción del programa 1",    "cliente": "Falabella"  },  {    "nombre": "Programa 2",    "descripcion": "Descripción del programa 2",    "cliente": "Sodimac"  }]
+[
+    {
+        "nombre": "Proyecto 1",
+        "descripcion": "Descripción del proyecto 1",
+        "cliente": "Falabella"
+    },
+    {
+        "nombre": "Proyecto 2",
+        "descripcion": "Descripción del proyecto 2",
+        "cliente": "Sodimac"
+    }
+]

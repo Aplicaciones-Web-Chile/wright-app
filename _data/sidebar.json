@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Inicio",
+        "url": "/dashboard/admin"
+    },
+    {
+        "nombre": "Clientes",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Cliente",
+                "url": "/cliente/crear"
+            },
+            {
+                "nombre": "Editar Cliente",
+                "url": "/cliente/editar"
+            }
+        ]
+    },
+    {
+        "nombre": "Proyectos",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Proyecto",
+                "url": "/proyectos/crear"
+            },
+            {
+                "nombre": "Editar Proyecto",
+                "url": "/proyectos/editar"
+            }
+        ]
+    },
+    {
+        "nombre": "Dimensiones",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Dimensión",
+                "url": "/dimension/crear"
+            },
+            {
+                "nombre": "Editar Dimensión",
+                "url": "/dimension/editar"
+            }
+        ]
+    },
+    {
+        "nombre": "Diccionario de conductas",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Conducta",
+                "url": "/diccionario-de-conductas/crear"
+            },
+            {
+                "nombre": "Editar Conducta",
+                "url": "/diccionario-de-conductas/editar"
+            }
+        ]
+    }
+]

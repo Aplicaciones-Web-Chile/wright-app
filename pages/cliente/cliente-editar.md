@@ -3,26 +3,39 @@ layout: default
 title: Editar Cliente
 permalink: /cliente/editar
 section: cliente-editar
-comment for copilot: 
 ---
 
-## Editar clientes
+## Lista de clientes
 
 
 
 <div class="container">
-  <h1 class="text-center">Por favor, seleccione el cliente que desea editar:</h1>
+  <h3 class="text-center">Por favor, seleccione el cliente que desea editar:</h3>
   <hr>
   <div class="row justify-content-center">
-    <div class="col-md-8">
-      <ul class="list-group">
+    <div class="col-md-12">
+      <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Codigo</th>
+          <th>Editar</th>
+          <th>Archivar</th>
+        </tr>
+      </thead>
+      <tbody>
         {% for cliente in site.data.clientes %}
-        <li class="list-group-item">
-          <a href="/clientes/crear">Modificar {{ cliente.nombre }} ( {{ cliente.codigo }} )</a> <br>
-          <a href="/clientes-encargados/asignar">Asociar encargados {{ cliente.cliente }}</a>
-        </li>
+          <tr>
+            <td>{{ cliente.id }}</td>
+            <td>{{ cliente.nombre }}</td>
+            <td>{{ cliente.codigo }}</td>
+            <td><a href="/cliente/update/" class="btn btn-primary">Editar</a></td>
+            <td><a href="/cliente/archivar/{{ cliente.id }}" class="btn btn-danger">Archivar</a></td>
+          </tr>
         {% endfor %}
-      </ul>
+      </tbody>
+    </table>
     </div>
   </div>
 </div>

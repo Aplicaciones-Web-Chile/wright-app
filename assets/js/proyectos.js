@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    if($("body").hasClass("programa-crear")) {
+    if($("body").hasClass("proyecto-crear")) {
         // Etapa1
         $("#etapa-2, #etapa-3, #etapa-4").hide(); // Ocultar las etapas 2, 3 y 4
         $("#btn-etapa-1").click(function() { // Agregar evento al botón de siguiente de la etapa 1

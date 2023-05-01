@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "nombre": "Encargado principal"
+    },
+    {
+        "id": 2,
+        "nombre": "Mentor"
+    },
+    {
+        "id": 3,
+        "nombre": "Otro cargo I"
+    },
+    {
+        "id": 4,
+        "nombre": "Otro cargo II"
+    },
+    {
+        "id": 5,
+        "nombre": "Otro cargo III"
+    }
+]

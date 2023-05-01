@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Sodimac",
+        "codigo": "0001",
+        "rut": "12345678-9",
+        "descripcion": "Descripción del cliente 1"
+    },
+    {
+        "nombre": "Falabella",
+        "codigo": "0002",
+        "rut": "12345678-8",
+        "descripcion": "Descripción del cliente 2"
+    },
+    {
+        "nombre": "Universidad Adolfo Ibañez",
+        "codigo": "0003",
+        "rut": "12345678-7",
+        "descripcion": "Descripción del cliente 3"
+    }
+]

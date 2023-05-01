@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Juan Perez-Cotapos",
+    "email": "jpc@email.com",
+    "telefono": 12345678
+  },
+  {
+    "nombre": "Magdalena Risopatron",
+    "email": "mr@email.com",
+    "telefono": 12345678
+  },
+  {
+    "nombre": "Jorge Perez-Cotapos",
+    "email": "jpc2@email.com",
+    "telefono": 12345678
+  },
+  {
+    "nombre": "María Risopatron",
+    "email": "mr2@email.com",
+    "telefono": 12345678
+  }
+]

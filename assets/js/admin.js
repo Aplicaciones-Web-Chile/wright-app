@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    $('[data-toggle="tooltip"]').tooltip();
+
     if ( $('#boton-clonar').length > 0 ) {
         $("#boton-clonar").click(function() {
         var encargadoClonado = $(".encargado").last().clone(true, true);

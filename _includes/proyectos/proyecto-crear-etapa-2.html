@@ -1,5 +1,5 @@
 <div class="col-md-12">
-	<h3>Carga de Roles del proyecto</h3>
+	<h3>Definición de Roles del Ciclo</h3>
 	<section class="encargado">
 		<div class="row mb-3">
 			<div class="col-md-5">
@@ -15,7 +15,7 @@
 			</div>
 			<div class="col-md-5">
 				<div class="form-group">
-					<label for="rol">Seleccione Rol</label>
+					<label for="rol"  data-toggle="tooltip" data-placement="top" title="El encargado puede ser modificado">Seleccione Rol <small>(*)</small></label>					
 					<select class="form-control" id="rol">
 						<option>Seleccione ROL</option>
 						{% for rol in site.data.roles %}

@@ -1,12 +1,20 @@
 [
     {
+        "id"   : 1,
         "nombre": "Proyecto 1",
         "descripcion": "Descripción del proyecto 1",
         "cliente": "Falabella"
     },
     {
+        "id"   : 2,
         "nombre": "Proyecto 2",
         "descripcion": "Descripción del proyecto 2",
         "cliente": "Sodimac"
+    },
+    {
+        "id"   : 3,
+        "nombre": "Proyecto 3",
+        "descripcion": "Descripción del proyecto 3",
+        "cliente": "Universidad Adolfo Ibañez"
     }
 ]

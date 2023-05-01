@@ -1,27 +1,103 @@
 [
     {
-        "nombre": "Pregunta 1",
-        "pregunta_para_evaluado": "Pregunta en 1era persona 1",
-        "pregunta_para_evaluador": "Pregunta en 3era persona 1"
+      "nombre": "p1",
+      "pregunta_para_evaluado": "¿Cómo describirías tus habilidades comunicativas?",
+      "pregunta_para_evaluador": "¿Cómo calificarías las habilidades comunicativas de este empleado?"
     },
     {
-        "nombre": "Pregunta 2",
-        "pregunta_para_evaluado": "Pregunta en 1era persona 2",
-        "pregunta_para_evaluador": "Pregunta en 3era persona 2"
+      "nombre": "p2",
+      "pregunta_para_evaluado": "¿Cómo te defines en cuanto a trabajo en equipo?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de trabajo en equipo de este empleado?"
     },
     {
-        "nombre": "Pregunta 3",
-        "pregunta_para_evaluado": "Pregunta en 1era persona 3",
-        "pregunta_para_evaluador": "Pregunta en 3era persona 3"
+      "nombre": "p3",
+      "pregunta_para_evaluado": "¿Cómo te describes en cuanto a la resolución de problemas?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de resolución de problemas de este empleado?"
     },
     {
-        "nombre": "Pregunta 4",
-        "pregunta_para_evaluado": "Pregunta en 1era persona 4",
-        "pregunta_para_evaluador": "Pregunta en 3era persona 4"
+      "nombre": "p4",
+      "pregunta_para_evaluado": "¿Cómo te describes en cuanto a la capacidad de liderazgo?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de liderazgo de este empleado?"
     },
     {
-        "nombre": "Pregunta 5",
-        "pregunta_para_evaluado": "Pregunta en 1era persona 5",
-        "pregunta_para_evaluador": "Pregunta en 3era persona 5"
+      "nombre": "p5",
+      "pregunta_para_evaluado": "¿Qué tan motivado estás en tu trabajo?",
+      "pregunta_para_evaluador": "¿Cómo calificarías el nivel de motivación de este empleado?"
+    },
+    {
+      "nombre": "p6",
+      "pregunta_para_evaluado": "¿Cómo describirías tu capacidad para trabajar bajo presión?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para trabajar bajo presión?"
+    },
+    {
+      "nombre": "p7",
+      "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la planificación y organización?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de planificación y organización de este empleado?"
+    },
+    {
+      "nombre": "p8",
+      "pregunta_para_evaluado": "¿Cómo te describirías en cuanto a la atención al detalle?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la atención al detalle de este empleado?"
+    },
+    {
+      "nombre": "p9",
+      "pregunta_para_evaluado": "¿Cómo describirías tus habilidades técnicas en el área laboral?",
+      "pregunta_para_evaluador": "¿Cómo calificarías las habilidades técnicas de este empleado?"
+    },
+    {
+      "nombre": "p10",
+      "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la gestión de tiempo y prioridades?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de gestión de tiempo y prioridades de este empleado?"
+    },
+    {
+      "nombre": "p11",
+      "pregunta_para_evaluado": "¿Cómo describirías tu capacidad para adaptarte a los cambios?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de adaptación a los cambios de este empleado?"
+    },
+    {
+      "nombre": "p12",
+      "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la toma de decisiones?",
+      "pregunta_para_evaluador": "¿Cómo calificarías la capacidad
+      discrecional y la toma de decisiones de este empleado?"
+    },
+    {
+    "nombre": "p13",
+    "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la capacidad de aprendizaje?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de aprendizaje de este empleado?"
+    },
+    {
+    "nombre": "p14",
+    "pregunta_para_evaluado": "¿Cómo describirías tu capacidad para trabajar de forma independiente?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para trabajar de forma independiente?"
+    },
+    {
+    "nombre": "p15",
+    "pregunta_para_evaluado": "¿Cómo te describes en cuanto a la creatividad e innovación?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de creatividad e innovación de este empleado?"
+    },
+    {
+    "nombre": "p16",
+    "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la comunicación intercultural?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de comunicación intercultural de este empleado?"
+    },
+    {
+    "nombre": "p17",
+    "pregunta_para_evaluado": "¿Cómo describirías tu capacidad para adaptarte a nuevas tecnologías?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para adaptarse a nuevas tecnologías?"
+    },
+    {
+    "nombre": "p18",
+    "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la capacidad de trabajo en situaciones de crisis?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para trabajar en situaciones de crisis?"
+    },
+    {
+    "nombre": "p19",
+    "pregunta_para_evaluado": "¿Cómo te describes en cuanto a la capacidad de trabajo en equipo virtual?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para trabajar en equipo virtual?"
+    },
+    {
+    "nombre": "p20",
+    "pregunta_para_evaluado": "¿Cómo te defines en cuanto a la capacidad para liderar y motivar equipos virtuales?",
+    "pregunta_para_evaluador": "¿Cómo calificarías la capacidad de este empleado para liderar y motivar equipos virtuales?"
     }
-]
+]  

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Francisca Vargas",
+    "email": "francisca@wright.cl",
+    "telefono": 12345678
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos Muñoz",
+    "email": "cmunoz@wright.cl",
+    "telefono": 12345678
+  },
+  {
+    "id": 3,
+    "nombre": "Oscar Mancisidor",
+    "email": "oscar.mancisidor@gmail.com",
+    "telefono": 12345678
+  }
+]
+
+
+

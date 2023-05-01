@@ -8,15 +8,17 @@ section: seccion-editar
 	<table class="table">
 		<thead>
 			<tr>
-			<th>Nombre</th>
-			<th>Dimensión Superior</th>
+				<th>Nombre</th>
+				<th>Dimensión Superior</th>
+				<th>Editar</th>
 			</tr>
 		</thead>
 	<tbody>
-	{% for dimension in site.data.dimensiones %}
+	{% for dimension in site.data.dimension %}
 		<tr>
-			<td><a href="/dimension/crear">{{ dimension.nombre }}</a></td>
+			<td>{{ dimension.nombre }}</td>
 			<td>{{ dimension.categoria }}</td>
+			<td><a href="/dimension/update/" class="btn btn-primary">Editar</a></td>
 		</tr>
 	{% endfor %}
 	</tbody>

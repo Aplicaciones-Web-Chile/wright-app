@@ -4,14 +4,38 @@ title: Proyecto Editar
 permalink: /proyectos/editar
 section:  proyecto-editar
 ---
-  <h1>Proyectos</h1>
-  <p> Seleccione el proyecto que desea editar </p>
-  <div class="list-group">
-    {% for proyecto in site.data.proyectos %}
-    <p>
-      <h3>{{ proyecto.cliente }} - {{ proyecto.nombre }}</h3>
-      <a href="/proyectos/modificar?nombre={{ proyecto.nombre }}" class="list-group-item list-group-item-action">Agregar nuevo ciclo</a>
-      <a href="/proyectos/modificar?nombre={{ proyecto.nombre }}" class="list-group-item list-group-item-action">Modificar </a>
-    </p>
-    {% endfor %}
+  <h3 class="text-center">Por favor, seleccione el proyecto que desea editar:</h3>
+  <hr>
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Descripcion</th>
+          <th>Cliente</th>
+          <th>Editar</th>
+          <th>Ciclos</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for proyecto in site.data.proyectos %}
+          <tr>
+            <td>{{ proyecto.id }}</td>
+            <td>{{ proyecto.nombre }}</td>
+            <td>{{ proyecto.descripcion }}</td>
+            <td>{{ proyecto.cliente }}</td>
+            <td><a href="/proyectos/update/" class="btn btn-primary">Editar</a></td>
+            <td>
+              <a href="/proyectos/ciclo-crear/" class="btn btn-primary d-block mb-3">Agregar Ciclo</a>
+              <a href="/proyectos/ciclo-crear/" class="btn btn-info d-block mb-3">Modificar Ciclo I</a>
+              <a href="/proyectos/ciclo-crear/" class="btn btn-info d-block">Modificar Ciclo II</a>
+
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
   </div>

@@ -18,20 +18,6 @@
         ]
     },
     {
-        "nombre": "Proyectos",
-        "url": "#",
-        "hijos": [
-            {
-                "nombre": "Crear Proyecto",
-                "url": "/proyectos/crear"
-            },
-            {
-                "nombre": "Editar Proyecto",
-                "url": "/proyectos/editar"
-            }
-        ]
-    },
-    {
         "nombre": "Dimensiones",
         "url": "#",
         "hijos": [
@@ -56,6 +42,20 @@
             {
                 "nombre": "Editar Conducta",
                 "url": "/diccionario-de-conductas/editar"
+            }
+        ]
+    },
+    {
+        "nombre": "Proyectos",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Proyecto",
+                "url": "/proyectos/crear"
+            },
+            {
+                "nombre": "Editar Proyecto",
+                "url": "/proyectos/editar"
             }
         ]
     }

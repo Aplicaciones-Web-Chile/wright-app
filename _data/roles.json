@@ -1,22 +1,23 @@
 [
     {
         "id": 1,
-        "nombre": "Encargado principal"
+        "nombre": "Encargado principal",
+        "descripcion": "Encargado principal de la actividad",
+        "email": "email1@email.com",
+        "telefono": "123456789"
     },
     {
         "id": 2,
-        "nombre": "Mentor"
+        "nombre": "Mentor",
+        "descripcion": "Encargado mentoría de la actividad",
+        "email": "email2@email.com",
+        "telefono": "123456789"
     },
     {
         "id": 3,
-        "nombre": "Otro cargo I"
-    },
-    {
-        "id": 4,
-        "nombre": "Otro cargo II"
-    },
-    {
-        "id": 5,
-        "nombre": "Otro cargo III"
+        "nombre": "Coach",
+        "descripcion": "Encargado coach de la actividad",
+        "email": "email3@email.com",
+        "telefono": "123456789"
     }
 ]

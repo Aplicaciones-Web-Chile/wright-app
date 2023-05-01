@@ -9,14 +9,13 @@ section: dashboard
 <div class="row">
 	<div class="col-12">
 		<p>Dashboard del administrador.</p>
-		<p>Desde esta pantalla tendrás links a reportes de los programas en curso.</p>
+		<p>Desde esta pantalla tendrás links a reportes de los proyectos en curso.</p>
 		<ul>
-			<li><a href="#">Programa A</a></li>
-			<li><a href="#">Programa B</a></li>
-			<li><a href="#">Programa C</a></li>
-			<li><a href="#">Programa D</a></li>
+			{% for proyecto in site.data.proyectos %}
+			<li><a href="/proyectos/update/">{{ proyecto.nombre }} del cliente {{ proyecto.cliente }}</a></li>
+			{% endfor %}
 		</ul>
-		<p> O tal vez quieras <a href="/programas/crear">Crear un nuevo programa</a></p>
+		<p> O tal vez quieras <a href="/proyectos/crear">Crear un nuevo proyecto.</a></p>
 
 	</div>
 

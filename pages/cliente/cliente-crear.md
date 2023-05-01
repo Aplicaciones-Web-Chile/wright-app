@@ -9,21 +9,21 @@ comment for copilot: Crea un formulario que permita crear un Cliente, con los si
 Aquí puedes ver y gestionar los clientes
 <form class="form-horizontal" role="form">
   <div class="form-group mb-3">
-    <label for="empresa" class="col-sm-2 control-label">Nombre comercial de la empresa</label>
-    <div class="col-sm-10">
+    <label for="empresa" class="col-sm-4 control-label">Nombre comercial de la empresa</label>
+    <div class="col-sm-8">
       <input type="text" class="form-control" id="empresa" placeholder="Nombre de la Empresa">
     </div>
   </div>
   <div class="form-group mb-3">
-    <label for="codigo" class="col-sm-2 control-label">Código</label>
-    <div class="col-sm-10">
+    <label for="codigo" class="col-sm-24 control-label">Código</label>
+    <div class="col-sm-8">
       <input type="text" class="form-control" id="codigo" placeholder="Código de la Empresa">
     </div>
   </div>
 
   <div class="form-group mb-3">
-    <label for="codigo" class="col-sm-2 control-label">Rut</label>
-    <div class="col-sm-10">
+    <label for="codigo" class="col-sm-4 control-label">Rut</label>
+    <div class="col-sm-8">
       <input type="text" class="form-control" id="rut" placeholder="Rut de la Empresa">
     </div>
   </div>

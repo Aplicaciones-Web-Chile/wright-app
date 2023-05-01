@@ -5,7 +5,6 @@ permalink: /cliente/editar
 section: cliente-editar
 ---
 ## Lista de clientes
-  <h3 class="text-center">Por favor, seleccione el cliente que desea editar:</h3>
   <hr>
   <div class="row justify-content-center">
     <div class="col-md-12">

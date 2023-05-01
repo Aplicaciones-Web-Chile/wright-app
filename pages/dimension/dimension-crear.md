@@ -6,13 +6,13 @@ section: dimension-crear
 ---
   <div class="row">
     <div class="col-md-6 mx-auto">
-      <h1 class="text-center">Crear nueva dimension</h1>
+      <h2>Crear nueva dimension</h2>
       <form id="dimension-form">
-        <div class="form-group">
+        <div class="form-group  mb-3">
           <label for="nombre-input">Nombre de la dimension</label>
           <input type="text" class="form-control" id="nombre-input" name="nombre" required>
         </div>
-        <div class="form-group">
+        <div class="form-group mb-3">
           <label for="dimension-superior-select">Dimension superior</label>
           <select class="form-control" id="dimension-superior-select" name="dimension-superior">
             <option value="GESTIÓN PERSONAL">GESTIÓN PERSONAL</option>

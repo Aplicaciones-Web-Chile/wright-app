@@ -1,0 +1,29 @@
+---
+layout: default
+title: Diccionario de conductas Editar
+permalink: /diccionario-de-conductas/editar
+section: diccionario-de-conductas-editar
+---
+	<h2 class="mb-4">Diccionario de conductas</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Pregunta evaluado</th>
+       			 <th>Pregunta evaluador</th>
+				 <th>Dimensión</th>
+				<th>Editar</th>
+			</tr>
+		</thead>
+	<tbody>
+	{% for conducta in site.data.diccionario_conductas %}
+		<tr>
+			<td>{{ conducta.nombre }}</td>
+			<td>{{ conducta.pregunta_para_evaluado }}</td>
+			<td>{{ conducta.pregunta_para_evaluador }}</td>
+			<td>{{ conducta.dimension }}</td>
+			<td><a href="/diccionario-de-conductas/crear/" class="btn btn-primary">Editar</a></td>
+		</tr>
+	{% endfor %}
+	</tbody>
+	</table>

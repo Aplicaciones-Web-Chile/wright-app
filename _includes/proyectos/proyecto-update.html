@@ -1,0 +1,31 @@
+<div class="col-md-12">
+    <div class="form-group mb-3">
+      <label for="nombre-proyecto">Nombre del proyecto</label>
+      <input type="text" class="form-control" id="nombre-proyecto" placeholder="Ingrese el nombre del proyecto" value="Falabella">
+    </div>
+    <div class="form-group mb-3">
+      <label for="cliente">Cliente</label>
+      <select class="form-control" id="cliente">
+        {% for client in site.data.clientes %}
+          <option selected value="{{ client.nombre }}">{{ client.nombre }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="form-group mb-3">
+      <label for="contraparte">Nombre de la contraparte del cliente</label>
+      <input type="text" class="form-control" id="contraparte" placeholder="Ingrese el nombre de la contraparte del cliente" value="Juan Perez">
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="jefe_de_proyecto">Jefe de proyecto</label>
+
+      <select class="form-control" id="jefe_de_proyecto">
+      {% for jdp in site.data.jefes_de_proyecto %}
+      <option selected value="{{ jdp.id }}">{{ jdp.nombre }}</option>
+      {% endfor %}
+      </select>
+    </div>
+
+    <button type="button" class="btn btn-primary" id="btn-etapa-1">Actualizar información</button>
+  </div>
+  

@@ -4,20 +4,23 @@
         "nombre": "Sodimac S.A.",
         "codigo": "0001",
         "rut": "12345678-9",
-        "descripcion": "Descripción del cliente 1"
+        "descripcion": "Descripción del cliente 1",
+        "admin_id": 1
     },
     {
         "id": "2",
-        "nombre": "Falabella",
+        "nombre": "Falabella S.A.",
         "codigo": "0002",
         "rut": "12345678-8",
-        "descripcion": "Descripción del cliente 2"
+        "descripcion": "Descripción del cliente 2",
+        "admin_id": 1
     },
     {
         "id": "3",
         "nombre": "Universidad Adolfo Ibañez",
         "codigo": "0003",
         "rut": "12345678-7",
-        "descripcion": "Descripción del cliente 3"
+        "descripcion": "Descripción del cliente 3",
+        "admin_id": 1
     }
 ]

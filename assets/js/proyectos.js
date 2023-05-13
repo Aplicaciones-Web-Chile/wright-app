@@ -41,35 +41,59 @@ $(document).ready(function () {
 				$(this).removeClass('zoom');
 			}
 		);
-		$('div.card').click(function () {
-			if ($(this).parent().hasClass('seleccionados')) {
-				$(this).appendTo($('div.no-seleccionados'));
-			} else {
-				$(this).appendTo($('div.seleccionados'));
-			}
+		$('div.card .btn-agregar-pregunta').click(function () {
+			/*
+				if ($(this).parent().parent().hasClass('seleccionados')) {
+					$(this).appendTo($('div.no-seleccionados'));
+			*/
+				$(this).parent().parent().appendTo($('div.seleccionados'));
+				$(this).hide();
 		});
 
+		$('div.card .close').click( function() {
+console.log("hola que sucede");
+			$(this).closest('div.card').appendTo($('div.no-seleccionados .row'));
+			//$(this).closest('div.card').remove();
+		});
+
+		$('.seleccionados').sortable({
+			handle: ".card-body",
+			tolerance: 'pointer'
+		});
+		
+		// Agregar evento dragstart a los elementos seleccionados
+		$('div.seleccionados .card').on('dragstart', function (event) {
+			// Agregar clase "dragging" al elemento para indicar que se está arrastrando
+			$(this).addClass('dragging');
+		});
+
+		// Agregar evento dragend a los elementos seleccionados
+		$('div.seleccionados .card').on('dragend', function (event) {
+			// Remover clase "dragging" del elemento
+			$(this).removeClass('dragging');
+		});
+  
+		 
 
 		$('#encuesta').on('input', function() {
 			var query = $(this).val();
 			if (query.length > 3) {
-			buscarPreguntas(query);
+				buscarPreguntas(query);
 			} else {
-			mostrarTodasLasPreguntas();
+				mostrarTodasLasPreguntas();
 			}
 		});
 		
 		function buscarPreguntas(query) {
 			$('div.no-seleccionados div.card').hide();
 			$('div.no-seleccionados div.card').filter(function() {
-			return $(this).text().toLowerCase().includes(query.toLowerCase());
+				return $(this).text().toLowerCase().includes(query.toLowerCase());
 			}).show();
 		}
 		
 		function mostrarTodasLasPreguntas() {
 			$('div.no-seleccionados div.card').show();
 		}
-
 
 	}
 

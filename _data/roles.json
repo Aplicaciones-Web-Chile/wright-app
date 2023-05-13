@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "nombre": "Encargado principal",
-        "descripcion": "Encargado principal de la actividad",
+        "nombre": "Contacto principal",
+        "descripcion": "Contacto principal de la actividad",
         "email": "email1@email.com",
         "telefono": "123456789"
     },
     {
         "id": 2,
         "nombre": "Mentor",
-        "descripcion": "Encargado mentoría de la actividad",
+        "descripcion": "Contacto mentoría de la actividad",
         "email": "email2@email.com",
         "telefono": "123456789"
     },
     {
         "id": 3,
         "nombre": "Coach",
-        "descripcion": "Encargado coach de la actividad",
+        "descripcion": "Contacto Coach de la actividad",
         "email": "email3@email.com",
         "telefono": "123456789"
     }

@@ -1,0 +1,46 @@
+---
+layout: default
+title: Preguntas Crear
+permalink: /preguntas/crear
+section: preguntas-crear
+---
+
+
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form>
+        <div class="form-group mb-3">
+          <label for="nombre-interno">Nombre interno</label>
+          <input type="text" class="form-control" id="nombre-interno" name="nombre-interno" placeholder="Ingrese el nombre interno">
+        </div>
+        <div class="form-group mb-3">
+          <label for="pregunta-evaluado">Pregunta para evaluado</label>
+          <input type="text" class="form-control" id="pregunta-evaluado" name="pregunta-evaluado" placeholder="Ingrese la pregunta para el evaluado">
+        </div>
+        <div class="form-group mb-3">
+          <label for="pregunta-evaluador">Pregunta para evaluador</label>
+          <input type="text" class="form-control" id="pregunta-evaluador" name="pregunta-evaluador" placeholder="Ingrese la pregunta para el evaluador">
+        </div>
+        <div class="form-group mb-3">
+          <label for="tipo-pregunta">Tipo de pregunta</label>
+          <select class="form-control" id="tipo-pregunta" name="tipo-pregunta">
+            <option value="abierta">Abierta</option>
+            <option value="si-no">Si/No</option>
+            <option value="1-10">Del 1 al 10</option>
+            <option value="multiple">Selección Múltiple</option>
+          </select>
+        </div>
+        <div class="form-group mb-3" id="opciones-multiple" style="display: none;">
+          <label for="opcion">Opción</label>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" id="opcion" name="opcion" placeholder="Ingrese una opción">
+            <button type="button" class="btn btn-secondary" id="agregar-opcion">+</button>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+  </div>
+
+
+<script src="{{ '/assets/js/preguntas-crear.js' | relative_url }}"></script>

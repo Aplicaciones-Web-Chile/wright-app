@@ -82,5 +82,45 @@ body {
   
 
   .caja-pregunta{
-    min-height: 220px;
+    min-height: 240px;
   }
+
+  .seleccionado {
+    position: relative;
+  }
+
+  .seleccionado .btn-agregar-pregunta,
+  .no-seleccionado .close{
+    display: none;
+  }
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background-color: #e9ecef;
+    padding: 2px;
+    border: none;
+  }
+  
+  div.seleccionados .card {
+    cursor: move;
+  }
+
+  div.seleccionados .card.dragging {
+    opacity: 0.5;
+  }
+  
+
+  .card {
+    position: relative;
+  }
+  
+  .card .btn-agregar-pregunta {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+  }
+  
+  

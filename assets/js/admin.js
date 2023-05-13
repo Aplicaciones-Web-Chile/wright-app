@@ -4,11 +4,11 @@ $(document).ready(function() {
 
     if ( $('#boton-clonar').length > 0 ) {
         $("#boton-clonar").click(function() {
-        var encargadoClonado = $(".encargado").last().clone(true, true);
-        encargadoClonado.find("input[type='text']").val("");
-        encargadoClonado.find("input[type='email']").val("");
-        encargadoClonado.find("textarea").val("");
-        $(".encargado").last().after(encargadoClonado);
+        var contactoClonado = $(".contacto").last().clone(true, true);
+        contactoClonado.find("input[type='text']").val("");
+        contactoClonado.find("input[type='email']").val("");
+        contactoClonado.find("textarea").val("");
+        $(".contacto").last().after(contactoClonado);
         });
     }
 

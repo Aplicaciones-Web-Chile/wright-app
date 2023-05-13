@@ -46,6 +46,20 @@
         ]
     },
     {
+        "nombre": "Preguntas",
+        "url": "#",
+        "hijos": [
+            {
+                "nombre": "Crear Pregunta",
+                "url": "/preguntas/crear"
+            },
+            {
+                "nombre": "Editar Pregunta",
+                "url": "/preguntas/editar"
+            }
+        ]
+    },
+    {
         "nombre": "Proyectos",
         "url": "#",
         "hijos": [

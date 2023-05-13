@@ -3,7 +3,7 @@ layout: default
 title: Cliente
 permalink: /cliente/crear
 section: cliente-crear
-comment for copilot: Crea un formulario que permita crear un Cliente, con los siguiente campos Nombre de la Empresa (texto maximo 255 caracteres), Código de la empresa (texto alfanumérico de maximo 50 caracteres), y un Encargado Principal que debe ser selector que provenga de un encargados_cliente.yml. El formulario deberá tener clases de bootstrap y debe tener validaciones de javascript.  
+comment for copilot: Crea un formulario que permita crear un Cliente, con los siguiente campos Nombre de la Empresa (texto maximo 255 caracteres), Código de la empresa (texto alfanumérico de maximo 50 caracteres), y un Contacto Principal que debe ser selector que provenga de un contactos_cliente.json. El formulario deberá tener clases de bootstrap y debe tener validaciones de javascript.  
 ---
 # Cliente
 Aquí puedes ver y gestionar los clientes
@@ -28,9 +28,9 @@ Aquí puedes ver y gestionar los clientes
     </div>
   </div>
 
-<h3 class="mb-3 mt-4">Crear encargados</h3>
+<h3 class="mb-3 mt-4">Crear contactos</h3>
 
-{% include clientes/encargados.html %}
+{% include clientes/contactos.html %}
 
   <button type="submit" class="btn btn-primary">Crear Cliente</button>
 </form>

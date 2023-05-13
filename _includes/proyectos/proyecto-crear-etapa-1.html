@@ -12,8 +12,12 @@
       </select>
     </div>
     <div class="form-group mb-3">
-      <label for="contraparte">Nombre de la contraparte del cliente</label>
-      <input type="text" class="form-control" id="contraparte" placeholder="Ingrese el nombre de la contraparte del cliente">
+      <label for="contraparte">Contacto principal del Cliente</label>
+      <select class="form-control" id="contacto_principal">
+        {% for client in site.data.clientes_contactos %}
+          <option value="{{ client.id }}">{{ client.nombre }}</option>
+        {% endfor %}
+      </select>
     </div>
 
     <div class="form-group mb-3">
@@ -28,4 +32,3 @@
 
     <button type="button" class="btn btn-primary" id="btn-etapa-1">Guardar y pasar a la siguiente etapa</button>
   </div>
-  

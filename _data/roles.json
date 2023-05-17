@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Contacto principal",
+        "descripcion": "Contacto principal de la actividad",
+        "email": "email1@email.com",
+        "telefono": "123456789"
+    },
+    {
+        "id": 2,
+        "nombre": "Mentor",
+        "descripcion": "Contacto mentoría de la actividad",
+        "email": "email2@email.com",
+        "telefono": "123456789"
+    },
+    {
+        "id": 3,
+        "nombre": "Coach",
+        "descripcion": "Contacto Coach de la actividad",
+        "email": "email3@email.com",
+        "telefono": "123456789"
+    }
+]

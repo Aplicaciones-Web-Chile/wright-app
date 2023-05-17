@@ -1,0 +1,25 @@
+---
+layout: default
+title: Dimensión Editar
+permalink: /dimension/editar
+section: seccion-editar
+---
+	<h1>Editar Dimensiones</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Dimensión Superior</th>
+				<th>Editar</th>
+			</tr>
+		</thead>
+	<tbody>
+	{% for dimension in site.data.dimension %}
+		<tr>
+			<td>{{ dimension.nombre }}</td>
+			<td>{{ dimension.categoria }}</td>
+			<td><a href="/dimension/update/" class="btn btn-primary">Editar</a></td>
+		</tr>
+	{% endfor %}
+	</tbody>
+	</table>

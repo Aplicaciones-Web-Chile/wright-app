@@ -1,20 +1,44 @@
 <div class="col-md-12">
-    <div class="form-group">
-      <label for="encuesta">Crear la encuesta</label>
-      <input type="text" class="form-control" id="encuesta" placeholder="Ingrese la pregunta">
-    </div>
-    <div class="form-group" style="min-height: 300px;">
-      {% for pregunta in site.data.diccionario_conductas %}
-        <div class="card float-start ms-2 mb-2 mt-2 text-white bg-primary " style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">{{ pregunta.nombre }}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">{{ pregunta.pregunta_para_evaluado }}</h6>
-            <p class="card-text">{{ pregunta.pregunta_para_evaluador }}</p>
-          </div>
-        </div>
-      {% endfor %}
-    </div>    
-    <div class="p-2 form-group">
-      <button type="button" class="btn btn-primary" id="btn-etapa-3">Siguiente</button>
-    </div>
-  </div>  
+	<div class="form-group">
+		<label for="encuesta">Crear la Encuesta para este ciclo</label>
+		<input type="text" class="form-control" id="encuesta" placeholder="Ingrese la Conducto o Pregunta">
+		<hr>
+	</div>
+	<div class="form-group no-seleccionados">
+		<div class="row">
+			{% for pregunta in site.data.diccionario_conductas %}
+			<div class="card float-start ms-1 mb-1 mt-1 zoom caja-pregunta" style="width: 18rem;">
+				<div class="card-header bg-transparent border-bottom-0">
+					<button data-dismiss="alert" data-target="#closeablecard" type="button" class="close" aria-label="Cerrar">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="card-body">
+					<h5 class="card-title">{{ pregunta.nombre }}</h5>
+					<h6 class="card-subtitle mb-1 text-muted">{{ pregunta.pregunta_para_evaluado }}</h6>
+					<p class="card-text">{{ pregunta.pregunta_para_evaluador }}</p>
+					<button type="button" class="btn btn-primary btn-sm btn-agregar-pregunta" data-id="{{ pregunta.id }}">Agregar</button>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<hr class="mt-4 mb-4">
+	</div>
+	
+	<div class="form-group">
+		<div class="row">
+			<h3>Conductas y preguntas seleccionadas</h3>
+			<p class="info">
+				<i class="fas fa-info-circle"></i>
+				Estas son las conductas y preguntas que se incluirán en la encuesta. Puede cambiar el orden de las mismas arrastrando y soltando.
+			</p>
+			<div class="seleccionados sortable"></div>	
+		</div>
+		<hr>
+	</div>
+
+	<div class="p-2 form-group">
+		<button type="button" class="btn btn-primary" id="btn-vista-previa-encuesta">Guardar lista actual y generar previa de la Encuesta</button>
+		<button type="button" class="btn btn-primary" id="btn-etapa-3">Crear proyecto y enviar mail a los evaluados y evaluadores</button>
+	</div>
+</div>

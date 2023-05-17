@@ -1,20 +1,28 @@
 [
   {
+    "id": 1,
+    "id_cliente": 1,
     "nombre": "Juan Perez-Cotapos",
     "email": "jpc@email.com",
     "telefono": 12345678
   },
   {
+    "id": 2,
+    "id_cliente": 2,
     "nombre": "Magdalena Risopatron",
     "email": "mr@email.com",
     "telefono": 12345678
   },
   {
+    "id": 3,
+    "id_cliente": 1,
     "nombre": "Jorge Perez-Cotapos",
     "email": "jpc2@email.com",
     "telefono": 12345678
   },
   {
+    "id": 4,
+    "id_cliente": 2,    
     "nombre": "María Risopatron",
     "email": "mr2@email.com",
     "telefono": 12345678

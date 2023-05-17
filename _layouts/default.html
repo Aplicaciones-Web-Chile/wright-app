@@ -1,25 +1,22 @@
 {% include head.html %}
   <body {% if page.section %}class="{{ page.section }}"{% endif %}>
-
     {% include header.html %}
-
     <!-- .container-fluid -->
     <div class="container-fluid">
       <div class="row">
         {% include sidebar.html %}
         <!-- Main -->
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-          <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+          <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pb-4 mb-3 border-bottom">
+            <div class="container">
             {{ content }}
+            </div>
           </div>
         </main>
         <!-- /.Main -->
       </div>
     </div>
     <!-- /.container-fluid -->
-
     {% include footer.html %}
   </body>
 </html>
-
-

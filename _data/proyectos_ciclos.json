@@ -1,0 +1,66 @@
+[
+    {
+        "id"   : 1,
+        "proyecto_id": 1,
+        "nombre": "Ciclo I",
+        "descripcion": "Descripción del Ciclo I",
+        "evaluados": [
+            {
+                "id": 1,
+                "nombre": "Evaluado 1",
+                "rut": "11111111-1",
+                "email": "evaluado1@email.com",
+                "telefono": "11111111"
+            },
+            {
+                "id": 2,
+                "nombre": "Evaluado 2",
+                "rut": "22222222-2",
+                "email": "evaluado2@email.com",
+                "telefono": "22222222"
+            },
+            {
+                "id": 3,
+                "nombre": "Evaluado 3",
+                "rut": "33333333-3",
+                "email": "evaluado3@email.com",
+                "telefono": "33333333"
+            }
+        ],
+        "evaluadores": [
+            {
+                "id": 1,
+                "nombre": "Evaluador 1",
+                "rut": "11111111-1",
+                "email": "evaluador1@email.com",
+                "telefono": "11111111"
+            },
+            {
+                "id": 2,
+                "nombre": "Evaluador 2",
+                "rut": "22222222-2",
+                "email": "evaluador2@email.com",
+                "telefono": "22222222"
+            },
+            {
+                "id": 3,
+                "nombre": "Evaluador 3",
+                "rut": "33333333-3",
+                "email": "evaluador3@email.com",
+                "telefono": "33333333"
+            }
+        ]
+    },
+    {
+        "id"   : 2,
+        "nombre": "Proyecto 2",
+        "descripcion": "Descripción del proyecto 2",
+        "cliente": "Sodimac"
+    },
+    {
+        "id"   : 3,
+        "nombre": "Proyecto 3",
+        "descripcion": "Descripción del proyecto 3",
+        "cliente": "Universidad Adolfo Ibañez"
+    }
+]

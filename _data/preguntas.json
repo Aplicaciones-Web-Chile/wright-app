@@ -1,0 +1,125 @@
+[
+    {
+        "nombre": "¿Qué talentos y experiencias podrás poner al servicio de tu aprendizaje y el de los demás?",
+        "pregunta_para_evaluado": "",
+        "pregunta_para_evaluador": "",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "¿Qué barreras pudieran dificultar tu aprendizaje y participación?",
+        "pregunta_para_evaluado": "",
+        "pregunta_para_evaluador": "",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 1",
+        "pregunta_para_evaluado": "¿Qué habilidades o aprendizajes te gustaría adquirir o potenciar en el programa?",
+        "pregunta_para_evaluador": "¿Qué habilidades o aprendizajes te gustaría que el evaluado adquiriera o potenciara en el programa?",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 2",
+        "pregunta_para_evaluado": "¿Cómo describirías tu nivel de compromiso con la empresa?",
+        "pregunta_para_evaluador": "¿Cómo describirías el nivel de compromiso del evaluado con la empresa?",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 3",
+        "pregunta_para_evaluado": "¿Consideras que se te han dado suficientes oportunidades de crecimiento en la empresa?",
+        "pregunta_para_evaluador": "¿Consideras que se le han dado suficientes oportunidades de crecimiento al evaluado en la empresa?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 4",
+        "pregunta_para_evaluado": "En una escala del 1 al 10, ¿cómo evaluarías tu desempeño en el trabajo?",
+        "pregunta_para_evaluador": "En una escala del 1 al 10, ¿cómo evaluarías el desempeño del evaluado en el trabajo?",
+        "tipo_pregunta": "del_1_al_10"
+    },
+    {
+        "nombre": "Pregunta 5",
+        "pregunta_para_evaluado": "¿Estás satisfecho con la comunicación y retroalimentación recibida de tus jefes?",
+        "pregunta_para_evaluador": "¿Estás satisfecho con la comunicación y retroalimentación recibida por el evaluado de sus jefes?",
+        "tipo_pregunta": "multiple",
+        "opciones": ["Sí", "No", "No estoy seguro"]
+    },
+    {
+        "nombre": "Pregunta 6",
+        "pregunta_para_evaluado": "¿Crees que tus responsabilidades están claramente definidas?",
+        "pregunta_para_evaluador": "¿Crees que las responsabilidades del evaluado están claramente definidas?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 7",
+        "pregunta_para_evaluado": "¿Te sientes cómodo trabajando en equipo?",
+        "pregunta_para_evaluador": "¿Cómo describirías el desempeño del evaluado trabajando en equipo?",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 1",
+        "pregunta_para_evaluado": "¿Qué habilidades o aprendizajes te gustaría adquirir o potenciar en el programa?",
+        "pregunta_para_evaluador": "¿Qué habilidades o aprendizajes te gustaría que el evaluado adquiriera o potenciara en el programa?",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 2",
+        "pregunta_para_evaluado": "¿Cómo describirías tu nivel de compromiso con la empresa?",
+        "pregunta_para_evaluador": "¿Cómo describirías el nivel de compromiso del evaluado con la empresa?",
+        "tipo_pregunta": "abierta"
+    },
+    {
+        "nombre": "Pregunta 3",
+        "pregunta_para_evaluado": "¿Consideras que se te han dado suficientes oportunidades de crecimiento en la empresa?",
+        "pregunta_para_evaluador": "¿Consideras que se le han dado suficientes oportunidades de crecimiento al evaluado en la empresa?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 4",
+        "pregunta_para_evaluado": "En una escala del 1 al 10, ¿cómo evaluarías tu desempeño en el trabajo?",
+        "pregunta_para_evaluador": "En una escala del 1 al 10, ¿cómo evaluarías el desempeño del evaluado en el trabajo?",
+        "tipo_pregunta": "del_1_al_10"
+    },
+    {
+        "nombre": "Pregunta 5",
+        "pregunta_para_evaluado": "¿Estás satisfecho con la comunicación y retroalimentación recibida de tus jefes?",
+        "pregunta_para_evaluador": "¿Estás satisfecho con la comunicación y retroalimentación recibida por el evaluado de sus jefes?",
+        "tipo_pregunta": "multiple",
+        "opciones": ["Sí", "No", "No estoy seguro"]
+    },
+    {
+        "nombre": "Pregunta 6",
+        "pregunta_para_evaluado": "¿Crees que tus responsabilidades están claramente definidas?",
+        "pregunta_para_evaluador": "¿Crees que las responsabilidades del evaluado están claramente definidas?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 7",
+        "pregunta_para_evaluado": "¿Te sientes cómodo trabajando en equipo?",
+        "pregunta_para_evaluador": "¿Cómo describirías el desempeño del evaluado trabajando en equipo?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 8",
+        "pregunta_para_evaluado": "En una escala del 1 al 10, ¿cómo evaluarías el ambiente de trabajo?",
+        "pregunta_para_evaluador": "En una escala del 1 al 10, ¿cómo evaluarías el ambiente de trabajo del evaluado?",
+        "tipo_pregunta": "del_1_al_10"
+    },
+    {
+        "nombre": "Pregunta 9",
+        "pregunta_para_evaluado": "¿Te sientes apoyado por tus compañeros de trabajo?",
+        "pregunta_para_evaluador": "¿Cómo describirías el nivelde apoyo que recibe el evaluado de sus compañeros de trabajo?",
+        "tipo_pregunta": "si_no"
+    },
+    {
+        "nombre": "Pregunta 1",
+        "pregunta_para_evaluado": "¿Cómo describirías tu nivel de motivación en el trabajo?",
+        "pregunta_para_evaluador": "¿Cómo describirías el nivel de motivación del evaluado en el trabajo?",
+        "tipo_pregunta": "multiple",
+        "opciones": ["Buena", "Regular", "No estoy seguro"]
+    },
+    {
+        "nombre": "Pregunta 10",
+        "pregunta_para_evaluado": "¿Crees que se te han dado suficientes recursos y herramientas para realizar tu trabajo de manera efectiva?",
+        "pregunta_para_evaluador": "¿Crees que se le han dado suficientes recursos y herramientas al evaluado para realizar su trabajo de manera efectiva?",
+        "tipo_pregunta": "si_no"
+    }
+]

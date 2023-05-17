@@ -5,7 +5,6 @@ permalink: /diccionario-de-conductas/crear
 section: diccionario-de-conductas-crear
 ---
 
-<div class="container mt-5">
   <h1 class="mb-4">Crear conducta</h1>
   <form id="conducta-form">
     <div class="mb-3">
@@ -36,4 +35,3 @@ section: diccionario-de-conductas-crear
     </div>
     <a href="/diccionario-de-conductas/editar" class="btn btn-primary">Ir a ver las conductas</a>
   </div>
-</div>
